@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+}
+body{
+    font-family: 'Roboto' , 'sans-serif';
+    background-color: #f1f1f1;  
+}
+.header{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+.points{
+    justify-content: center;
+    align-items: center;
+}
+.f{
+    display: flex;
+    padding-right: 40px;
+}
+.f i{
+    padding-right: 5px;
+}
+.f li a {
+    border-style: none;
+    text-decoration: none;
+    color: black;
+}
+.s{
+    display: flex;
+    padding-right: 30px;
+}
+.s li a {
+    border-style: none;
+    text-decoration: none;
+    color: black;
+
+}
+.s i{
+    padding-right: 5px;
+}
+.t{
+    display: flex;
+    padding-right: 30px;
+}
+.t li a {
+    border-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.f:hover{
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+}
+.t img{
+    padding-right: 5px;
+}
+.t #image{
+    padding-right: 5px;
+}
+.t #dot{
+    padding-left: 50px;
+}
+#selector{
+    border: none;
+}
+ul{
+    display: flex;
+    cursor: pointer;
+    list-style: none;
+}
+.search-bar .material-symbols-outlined{
+    border: none ;
+    padding-top: 7px;
+    padding-left: 7px;
+    background-color: #f1f1f1;
+    border-radius: 10px 0px 0px 10px
+}
+.search-bar input{
+    height: 40px;
+    width: 450px;
+    background-color: #f1f1f1;
+    font-size: 17px;
+    border: none;
+    padding: 10px;
+    border-radius: 0px 10px 10px 0px
+}
+.search-bar{
+    display: flex;
+}
+.Main{
+    /* border-top: 12px solid #f1f1f1; */
+    padding: 10px;
+}
+.product-bar{
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+    justify-content: space-around;
+    font-family: inter_regular,fallback-inter_regular,Arial,sans-serif;
+}
+.product-bar img{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.product-bar select{
+    border: none;
+}
